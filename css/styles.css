@@ -18,9 +18,6 @@ body {
   color: var(--slate);
   background-color: var(--solid)
 }
-.list {list-style: none;
-}
-
 
 <!--Heaadersection-- > 
 .header {
@@ -34,34 +31,44 @@ body {
   text-transform: uppercase;
   color: var(--color-iris);
 }
-.logo-studio {
-   font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--navi-blue);
+.logo-studio-header {
+    color: var(--navi-blue);
+}
+    .logo-studio-footer {
+      color: var(--cloud);
   
 }
-.link-studio {
+.link-text:hover,
+.link-text:focus,
+.contacts:hover,
+.contacts:focus {
+  color: var(--ocean);
+}
+.link {
+  text-decoration: none;
+}
+
+.link-text {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
 }
-.link-portfolio {
-    font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--navi-blue);
+.list {
+  list-style: none;
 }
-.link-contacts {
+.contacts {
+  font-style: normal;
+}
+
+.contacts{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
 }
-.mail {
+.addresslink {
   font-family: var(--primary-font);
   font-weight: 400;
   font-size: 16px;
@@ -69,14 +76,7 @@ body {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.phone {
-  font-family: var(--primary-font);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--slate);
-}
+
 <!--Zagolovok-- > 
 .heading-image {
   font-family: var(--primary-font);
