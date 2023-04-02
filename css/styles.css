@@ -6,8 +6,11 @@
   --slate: #434455;
   --solid: #ffffff;
   --ocean:#404bbf;
-
-
+  --green: #31d0aa;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+   --dairy: #fcfcfc;
 }
 /* ---------- Body ------ */
 body {
