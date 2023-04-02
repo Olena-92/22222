@@ -8,7 +8,7 @@
     --color-iris: #4D5AE5;
     --navi-blue: #2E2F42;
     --slate:#434455;
-
+--solid:#FFFFFF;
 }
 <!--Heaadersection-->
 .header{
@@ -75,3 +75,51 @@
     color: var(--slate);
    }
    <!--Zagolovok-->
+   .heading-image{
+    font-family: var(--primary-font);
+    color: var(--solid);
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    line-height: 1.07;
+   }
+   .btn{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16;
+line-height:1.5;
+letter-spacing: 0,04;
+ color:var(--solid);
+ background-color:var(--color-iris) 
+ padding:16px, 32px, 16px, 32px;
+gap:10px;
+shadow: 0px 4px 4px 0px;
+   }
+   <!--Section1-->
+   #studio {
+    /* text */
+}
+.section1{
+font-family:var(--primary-font);
+font-weight:500;
+font-size: 20px;
+line-height: 1.02;
+letter-spacing:0.02;
+color:var(--navi-blue)
+}
+.strategy{
+    Font family: Roboto
+    Font style: Regular
+    Font size: 16sp
+    Line height: 24sp
+    Line height: 128%
+    Align: Left
+    Vertical align: Top
+    Letter spacing: 2%
+    Fill Color Style: SLATE
+    Fill: Solid
+    #434455
+
+}
