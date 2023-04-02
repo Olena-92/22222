@@ -115,7 +115,8 @@ body {
   background-color: var(--color-iris);
 }
 
-<!--Section1-- > .strategy {
+<!--Section1-- > 
+.strategy {
   width: 264px;
   height: 24px;
   font-family: var(--primary-font);
