@@ -5,8 +5,22 @@
   --navi-blue: #2e2f42;
   --slate: #434455;
   --solid: #ffffff;
+  --ocean:#404bbf;
+
+
 }
-<!--Heaadersection-- > .header {
+/* ---------- Body ------ */
+body {
+  font-family: var(--primary-font);
+  color: #434455;
+  background-color: #FFFFFF;
+}
+.list {list-style: none;
+}
+
+
+<!--Heaadersection-- > 
+.header {
 }
 .logo {
   font-family: var(--secondary-font);
@@ -18,33 +32,27 @@
   color: var(--color-iris);
 }
 .logo-studio {
-  font-family: var(--secondary-font);
-  font-weight: 800;
+   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--navi-blue);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  
 }
 .link-studio {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
 }
 .link-portfolio {
-  font-weight: 500;
-  font-size: 16px;
+    font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
 }
 .link-contacts {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -66,7 +74,8 @@
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-<!--Zagolovok-- > .heading-image {
+<!--Zagolovok-- > 
+.heading-image {
   font-family: var(--primary-font);
   color: var(--solid);
   font-weight: 700;
@@ -74,11 +83,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   line-height: 1.07;
-  position: absolute;
-  width: 496px;
-  height: 120px;
-  left: 472px;
-  top: 260px;
+
 }
 .button {
   display: flex;
@@ -86,7 +91,6 @@
   align-items: flex-start;
   padding: 16px 32px;
   gap: 10px;
-
   position: absolute;
   width: 169px;
   height: 56px;
@@ -169,7 +173,6 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-
   color: var(--navi-blue);
 }
 
@@ -195,24 +198,22 @@
   box-sizing: border-box;
   width: 360px;
   height: 300px;
-  background: url(2368.jpg);
-  border: 1px solid #e7e9fc;
+ 
 }
 .img-item-two {
   box-sizing: border-box;
   width: 360px;
   height: 300px;
-  background: url(2225.jpg);
-  border: 1px solid #e7e9fc;
+  
 }
 .img-item-three {
   box-sizing: border-box;
   width: 360px;
   height: 300px;
-  background: url(photo-1545235617-7a424c1a60cc.jpg);
-  border: 1px solid #e7e9fc;
+  
 }
-<!--Section3-- > .section3 {
+<!--Section3-- > 
+.section3 {
   font-family: "Roboto";
   font-weight: 700;
   font-size: 36px;
@@ -221,11 +222,7 @@
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
-  position: absolute;
-  width: 162px;
-  height: 40px;
-  left: 639px;
-  top: 1668px;
+
 }
 .img-team-mark {
   width: 264px;
@@ -265,8 +262,7 @@
 /* ---Footer----*/
 .logo-footer {
   font-family: "Raleway";
-  font-style: normal;
-  font-weight: 800;
+    font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
   display: flex;
