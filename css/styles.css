@@ -119,13 +119,8 @@
 
 <!--Section1-- > 
 
-.std {
- width: 1128px;
-  height: 104px;
-  left: 156px;
-  top: 792px;
-}
-.title{
+
+.strategy{
   width: 264px;
   height: 24px;
   font-family: var(--primary-font);
@@ -182,9 +177,7 @@ color: #434455;
     color: #434455;
 }
 .technologies{
-    width: 264px;
-    height: 24px;
-         
+            
     font-family:var(--primary-font);
     font-weight: 500;
     font-size: 20px;
