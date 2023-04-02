@@ -20,8 +20,7 @@ body {
 }
 
 <!--Heaadersection-- > 
-.header {
-}
+
 .logo {
   font-family: var(--secondary-font);
   font-weight: 800;
@@ -71,52 +70,136 @@ body {
 
 
 <!--Zagolovok---> 
-.heading{
+
+.banner {
   background-color: var(--navy-blue-modal);
 }
 
-.heading-image {
-  font-family: var(--primary-font);
-  color: var(--solid);
+.banner-title {
   font-weight: 700;
   font-size: 56px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  line-height: 1.07;
-
+  color: var(--white);
 }
+
 .btn-cursor {
   cursor: pointer;
 }
-.button {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 16px 32px;
-  gap: 10px;
-  position: absolute;
-  width: 169px;
-  height: 56px;
-  left: 636px;
-  top: 428px;
-  color: var(--color-iris);
-  box-shadow: 0px 4px 4px rgba (0, 0, 0, 0.15);
-  border-radius: 4px;
-  cursor: pointer;
-}
-.btn {
-  font-family:var(--primary-font);
+
+.banner-button {
+  background-color: var(--iris);
+  font-family: "Roboto", sans-serif;
+  color: var(--white);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
-
-  display: flex;
-  align-items: center;
   letter-spacing: 0.04em;
-
-  color: var(--solid);
-  background-color: var(--color-iris);
 }
+
+.banner-button:hover,
+.banner-button:focus {
+  background-color: var(--ocean);
+}
+
+/* .feature-list {
+  display: inline-block;
+  width: 264px;
+} */
+.feature-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-modal);
+}
+
+.feature-list-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.sector-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue-modal);
+}
+
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-list {
+  background-color: var(--white);
+}
+
+.team-name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue-modal);
+}
+
+.team-profession {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+
+.footer {
+  background-color: var(--navy-blue-modal);
+}
+
+.footer-desc {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!--Section1-- > 
 .strategy {
