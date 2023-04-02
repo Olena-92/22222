@@ -16,7 +16,6 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  
 }
 .logo-studio {
   font-family: var(--secondary-font);
@@ -36,7 +35,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  
 }
 .link-portfolio {
   font-weight: 500;
@@ -44,7 +42,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  
 }
 .link-contacts {
   font-weight: 500;
@@ -52,7 +49,6 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  
 }
 .mail {
   font-family: var(--primary-font);
@@ -113,14 +109,9 @@
 
   color: var(--solid);
   background-color: var(--color-iris);
-
-  
 }
 
-<!--Section1-- > 
-
-
-.strategy{
+<!--Section1-- > .strategy {
   width: 264px;
   height: 24px;
   font-family: var(--primary-font);
@@ -131,115 +122,176 @@
   letter-spacing: 0.02em;
   color: var(--navi-blue);
 }
-.strategy-text{
-font-family:var(--primary-font);
+.strategy-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.punctuality {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navi-blue);
+}
+.punctuality-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.diligence {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navi-blue);
+}
+.diligence-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.technologies {
+  font-family: var(--primary-font);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+
+  color: var(--navi-blue);
+}
+
+.technologies-text {
+  font-family: var(--primary-font);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+<!--Section2-- > .section2 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navi-blue);
+}
+.img-item-one {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+  background: url(2368.jpg);
+  border: 1px solid #e7e9fc;
+}
+.img-item-two {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+  background: url(2225.jpg);
+  border: 1px solid #e7e9fc;
+}
+.img-item-three {
+  box-sizing: border-box;
+  width: 360px;
+  height: 300px;
+  background: url(photo-1545235617-7a424c1a60cc.jpg);
+  border: 1px solid #e7e9fc;
+}
+<!--Section3-- > .section3 {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+  position: absolute;
+  width: 162px;
+  height: 40px;
+  left: 639px;
+  top: 1668px;
+}
+.img-team-mark {
+  width: 264px;
+  height: 260px;
+}
+.name {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--navi-blue);
+}
+.profession {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.img-team-tom {
+  width: 264px;
+  height: 260px;
+}
+.img-team-daniel {
+  width: 264px;
+  height: 260px;
+}
+.img-team-camila {
+  width: 264px;
+  height: 260px;
+}
+/* ---Footer----*/
+.logo-footer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-iris);
+}
+.logo-studio-footer {
+  font-family: "Raleway";
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.2;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text{
+ font-family: 'Roboto';
+font-style: normal;
 font-weight: 400;
 font-size: 16px;
 line-height:1.5;
 letter-spacing: 0.02em;
-color: #434455;
-}
-
- 
-.punctuality {
- 
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navi-blue);
-  
-}
-.punctuality-text{
-    font-family:var(--primary-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height:1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-    }
-.diligence {
-  
-  font-family: var(--primary-font);
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--navi-blue);
- }
-.diligence-text{
-    font-family:var(--primary-font);
-    font-weight: 400;
-    font-size: 16px;
-    line-height:1.5;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-.technologies{
-            
-    font-family:var(--primary-font);
-    font-weight: 500;
-    font-size: 20px;
-    line-height:1.2;
-    letter-spacing: 0.02em;
-        
-    color:var(--navi-blue);
-       }
-
-    .technologies-text{
-        font-family:var(--primary-font);
-        font-weight: 400;
-        font-size: 16px;
-        line-height:1.5;
-        letter-spacing: 0.02em;
-        color: #434455;  
-    }   
-    <!--Section2-->
-    .section2{
- font-family: 'Roboto';
-font-weight: 700;
-font-size: 36px;
-line-height:1.1;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color:var(--navi-blue);
-    }
-    .img-item-one{
- box-sizing: border-box;
-width: 360px;
-height: 300px;
-background: url(2368.jpg);
-border: 1px solid #E7E9FC;
-    }
-    .img-item-two{
-   box-sizing: border-box;
-width: 360px;
-height: 300px;
-background: url(2225.jpg);
-border: 1px solid #E7E9FC;
-    }
-.img-item-three{ 
- box-sizing: border-box;
-width: 360px;
-height: 300px;
-background: url(photo-1545235617-7a424c1a60cc.jpg);
-border: 1px solid #E7E9FC;
-}
-<!--Section3-->
-.section3{
- font-family: 'Roboto';
-font-weight: 700;
-font-size: 36px;
-line-height: 1.1;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: #2E2F42;
-position: absolute;
-width: 162px;
-height: 40px;
-left: 639px;
-top: 1668px;
+color: #F4F4FD;
 }
