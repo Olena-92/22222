@@ -16,9 +16,7 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--color-iris);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  
 }
 .logo-studio {
   font-family: var(--secondary-font);
@@ -38,9 +36,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  
 }
 .link-portfolio {
   font-weight: 500;
@@ -48,9 +44,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  flex: none;
-  order: 1;
-  flex-grow: 0;
+  
 }
 .link-contacts {
   font-weight: 500;
@@ -58,9 +52,7 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  flex: none;
-  order: 2;
-  flex-grow: 0;
+  
 }
 .mail {
   font-family: var(--primary-font);
@@ -122,18 +114,13 @@
   color: var(--solid);
   background-color: var(--color-iris);
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  
 }
 
 <!--Section1-- > 
-#studio {
-  /* text */
-}
+
 .std {
-  position: absolute;
-  width: 1128px;
+ width: 1128px;
   height: 104px;
   left: 156px;
   top: 792px;
@@ -148,9 +135,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  
 }
 .punctuality {
   width: 264px;
@@ -162,9 +147,7 @@
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--navi-blue);
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+  
 }
 .diligence {
   width: 264px;
@@ -179,9 +162,7 @@
 
   color: var(--navi-blue);
 
-  flex: none;
-  order: 0;
-  flex-grow: 0;
+ 
 }
 .technologies{
     width: 264px;
@@ -196,8 +177,6 @@
     color:var(--navi-blue);
       
         
-    flex: none;
-    order: 0;
-    flex-grow: 0;
+   
 
 }
