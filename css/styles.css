@@ -70,7 +70,11 @@ body {
 }
 
 
-<!--Zagolovok-- > 
+<!--Zagolovok---> 
+.heading{
+  background-color: var(--navy-blue-modal);
+}
+
 .heading-image {
   font-family: var(--primary-font);
   color: var(--solid);
@@ -80,6 +84,9 @@ body {
   letter-spacing: 0.02em;
   line-height: 1.07;
 
+}
+.btn-cursor {
+  cursor: pointer;
 }
 .button {
   display: flex;
