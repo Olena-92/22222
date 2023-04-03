@@ -24,20 +24,21 @@ body {
 
 <!--Heaadersection-- > 
 
-.logo link{
+.logo{
   font-family: 'Raleway',sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #4D5AE5;
 }
 .logo-studio-header {
     color: #2e2f42;
 }
     .logo-studio-footer {
-      color: #8e8f99;
+      color: #F4F4FD;
+      
   
 }
 
