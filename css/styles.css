@@ -18,7 +18,7 @@ body {
   color: var(--slate);
   background-color: var(--solid)
 }
-.linc{
+.link{
   text-decoration: none;
 }
 
@@ -40,10 +40,14 @@ body {
       color: var(--cloud);
   
 }
+
+.address{ color: var(--slate);
+
+}
 .link-text:hover,
 .link-text:focus,
-.contacts:hover,
-.contacts:focus {
+.address:hover,
+.address:focus {
   color: var(--ocean);
 }
 .link {
@@ -74,8 +78,8 @@ body {
 
 <!--Zagolovok---> 
 
-.banner {
-  background-color: var(--navy-blue-modal);
+section .banner {
+  background-color: #2e2f42;
 }
 
 .banner-title {
