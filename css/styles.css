@@ -49,6 +49,7 @@ body {
 .address:hover,
 .address:focus {
   color: #404bbf;
+  background-color:#2e2f42;
 }
 .link {
   text-decoration: none;
@@ -168,12 +169,29 @@ section .banner {
 }
 
 .footer-desc {
+  font-family: "Roboto",sans-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #F4F4FD;
 }
-
+.logo-link{
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+color: #4D5AE5;
+}
+.logo-studio-footer{
+font-family: 'Raleway'sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1/17;
+letter-spacing: 0.03em;
+color: #F4F4FD;
+}
 
 /* PORTFOLIO */
 .filter-buttons {
