@@ -77,12 +77,12 @@ body {
 
 <!--Zagolovok---> 
 
-section .banner {
+.section-hero {
   background-color: #2e2f42;
   
 }
 
-.banner-title {
+.bsection-hero-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -95,7 +95,7 @@ section .banner {
   cursor: pointer;
 }
 
-.banner-button {
+.section-hero-button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   color:  #FFFFFF;
@@ -105,9 +105,9 @@ section .banner {
   letter-spacing: 0.04em;
 }
 
-.banner-button:hover,
-.banner-button:focus {
-  background-color: #4D5AE5;
+.section-hero-button:hover,
+.section-hero-button:focus {
+  background-color: #404BBF;
 }
 
 /* .feature-list {
@@ -222,7 +222,7 @@ color: #F4F4FD;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:  #8e8f99;
+  color:  #434455 ;
 }
 
 
