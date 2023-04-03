@@ -24,7 +24,7 @@ body {
 
 <!--Heaadersection-- > 
 
-.logo link{
+.logo{
   font-family: 'Raleway',sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -37,10 +37,8 @@ body {
     color: #2e2f42;
 }
     .logo-studio-footer {
-      color: #F4F4FD;
-      
-  
-}
+      color: #F4F4FD;    
+  }
 
 .address{ color: #434455;
 
@@ -49,7 +47,7 @@ body {
 .link-text:focus,
 .address:hover,
 .address:focus {
-  color: #404bbf;
+  color:#404BBF;
   }
 .link {
   text-decoration: none;
