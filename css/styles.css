@@ -22,7 +22,7 @@ body {
   text-decoration: none;
 }
 
-<!--Heaadersection-- > 
+
 
 .logo{
   font-family: 'Raleway',sans-serif;
@@ -75,7 +75,7 @@ body {
 }
 
 
-<!--Zagolovok---> 
+ 
 
 .section-hero {
   background-color: #2e2f42;
@@ -110,10 +110,7 @@ body {
   background-color: #404BBF;
 }
 
-/* .feature-list {
-  display: inline-block;
-  width: 264px;
-} */
+
 .feature-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -191,7 +188,14 @@ letter-spacing: 0.03em;
 color: #F4F4FD;
 }
 
-/* PORTFOLIO */
+
+
+
+
+
+
+
+
 .filter-buttons {
   background-color: #F4F4FD;
 
