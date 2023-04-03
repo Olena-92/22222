@@ -185,7 +185,7 @@ section .banner {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.04em;
-  color: var(--iris);
+  color: #4d5ae5;
 }
 
 .filter-buttons:hover,
