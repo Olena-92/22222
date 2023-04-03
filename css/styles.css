@@ -18,11 +18,14 @@ body {
   color: var(--slate);
   background-color: var(--solid)
 }
+.linc{
+  text-decoration: none;
+}
 
 <!--Heaadersection-- > 
 
 .logo {
-  font-family: var(--secondary-font);
+  font-family: 'Raleway',sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
