@@ -136,12 +136,9 @@ body {
 }
 
 .team-section {
-  background-color: #F4F4FD;
-}
-
-.team-list {
   background-color: #FFFFFF;
 }
+
 
 .team-name{
   font-weight: 500;
@@ -228,7 +225,6 @@ color: #F4F4FD;
   letter-spacing: 0.02em;
   color:  #434455 ;
 }
-
 
 
 
